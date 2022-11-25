@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <meta charset="utf-8"/>
+    #{if missatgeError}
+    <h3>  Error   ${missatgeError} </h3>
+    #{/if}
+
+    #{if registrocompletado}
+    <h3>  Registro completado   ${registrocompletado} </h3>
+    #{/if}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <h1 style="color:white;">LLIBRERIA ONLINE </h1>
+
+
+
+        #{form @loginbtn() }
+
+        <input type="submit" value="Login" style='width:70px; height:25px'><br><br>
+
+        #{/form}
+
+
+
+
+        #{form @registre() }
+
+        <button type="method" value="registre" style='width:70px; height:25px'>Registre</button>
+
+        #{/form}
+    </center>
+    <style>
+        body {
+            background-image: url('https://blog.vicensvives.com/wp-content/uploads/2018/11/libreri%CC%81a-antigua-1024x683.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+
+
+</body>
+</html>
