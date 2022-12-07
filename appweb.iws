@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="holafjrfj">
-      <change beforePath="$PROJECT_DIR$/app/views/Application/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Application/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Application/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appweb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" afterDir="false" />
-    </list>
+    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="ultima version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669371779314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ultima version">
+      <created>1669373654269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669373654269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hola" />
     <MESSAGE value="holafjrfj" />
-    <option name="LAST_COMMIT_MESSAGE" value="holafjrfj" />
+    <MESSAGE value="ultima version" />
+    <option name="LAST_COMMIT_MESSAGE" value="ultima version" />
   </component>
 </project>
