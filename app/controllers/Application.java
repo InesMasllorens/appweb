@@ -120,6 +120,11 @@ public class Application extends Controller {
         }
     }
 
+    public static void comprarlibrobtn(){
+
+        renderTemplate("Application/ComprarLibro.html");
+    }
+
     public void ComprarLibro(String n, String email) {
 
         Libro l = Libro.find("byNombre", n).first();
@@ -189,4 +194,13 @@ public class Application extends Controller {
         //for (Libro li: libros){
         //Post.find("order by postDate desc").fetch();
         }
+
+    public void ListarLibros(){
+        List<Libro> librosall = Libro.findAll();
+        for (Libro lib: librosall){
+            renderXml(lib);
+        }
+    }
+
+
 }
