@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+    #{if nocorrecto}
+    <h3>  Lo siento no ha sido posible   ${nocorrecto} </h3>
+    #{/if}
+
+    #{if correcto}
+    <h3>  Cambio de contrasena realizado con exito  ${correcto} </h3>
+    #{/if}
+
+    <h1>Welcome to our library ${userConnected} </h1>
+
+    #{form @TancaSessio() }
+
+    <input type="submit" value="Close session" /><br><br>
+
+    #{/form}
+
+
+    #{form @canvipasswordbtn() }
+
+    <input type="submit" value="Cambio de contrase�a" /><br><br>
+
+    #{/form}
+
+    #{form @comprarlibrobtn() }
+
+    <input type="submit" value="Comprar libro" /><br><br>
+
+    #{/form}
+
+</body>
+</html>
