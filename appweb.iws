@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="ultima version">
-      <change afterPath="$PROJECT_DIR$/app/views/Application/ComprarLibro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/Application/Tienda.html" afterDir="false" />
+    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="Funcion de comprarLibro y estructura de la tienda">
       <change beforePath="$PROJECT_DIR$/app/controllers/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Application/Llibres.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/Llibres.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appweb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ant-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ant-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-console-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-console-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-json-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-json-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-nio-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-nio-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-sql-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-sql-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-swing-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-swing-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-templates-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-templates-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-testng-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-testng-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-toml-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-toml-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-xml-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-xml-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_Llibres.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_Llibres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_500.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_errors_500.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" afterDir="false" />
     </list>
@@ -46,19 +105,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/PES/play-1.5.3/appweb",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ines/IdeaProjects/BackEnd-DSA-G5&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669373654269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Funcion de comprarLibro y estructura de la tienda">
+      <created>1670416913096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670416913096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +173,7 @@
     <MESSAGE value="hola" />
     <MESSAGE value="holafjrfj" />
     <MESSAGE value="ultima version" />
-    <option name="LAST_COMMIT_MESSAGE" value="ultima version" />
+    <MESSAGE value="Funcion de comprarLibro y estructura de la tienda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcion de comprarLibro y estructura de la tienda" />
   </component>
 </project>
