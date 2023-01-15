@@ -120,12 +120,27 @@ public class Application extends Controller {
         }
     }
 
-    public static void comprarlibrobtn(){
+    public static void buscarlibrobtn(){
 
-        renderTemplate("Application/ComprarLibro.html");
+        renderTemplate("Application/BuscarLibro.html");
     }
+    public static void comprar1btn(){
 
-    public void ComprarLibro(String n, String email) {
+        renderTemplate("Application/ComprarLibro1.html");
+    }
+    public static void comprar2btn(){
+
+        renderTemplate("Application/ComprarLibro2.html");
+    }
+    public static void sinopsis1(){
+
+        renderTemplate("Application/Sinopsis1.html");
+    }
+    public static void sinopsis2(){
+
+        renderTemplate("Application/Sinopsis2.html");
+    }
+    public void ComprarLibrobusqueda(String n, String email) {
 
         Libro l = Libro.find("byNombre", n).first();
         if (l != null) {
@@ -136,7 +151,7 @@ public class Application extends Controller {
                         c.saldo = c.saldo - l.precio;
                         l.stock = l.stock - 1;
                         l.ventas=l.ventas+1;
-                        Compra u = new Compra(2, "07/20/2021").save();
+                        Compra u = new Compra(1, "07/20/2021").save();
                         u.comprador = c;
                         u.producto = l;
                         u.save();
@@ -150,15 +165,18 @@ public class Application extends Controller {
                     }
                 }
                 else{
-                    renderText("El email que has introduït no pertany a cap client");
+                    renderArgs.put("nop","El email introduit és incorrecte");
+                    renderTemplate("Application/Llibres.html");
                 }
             }
             else {
-                renderText("No queda stock disponible");
+                renderArgs.put("nope","No queda suficiente stock");
+                renderTemplate("Application/Tienda.html");
             }
         }
         else {
-            renderText("El llibre que has introduït no existeix");
+            renderArgs.put("nopep","El llibre no existeix");
+            renderTemplate("Application/Llibres.html");
         }
     }
 
@@ -194,13 +212,16 @@ public class Application extends Controller {
         //for (Libro li: libros){
         //Post.find("order by postDate desc").fetch();
         }
+    public static void listarlibrosbtn(){
 
-    public void ListarLibros(){
-        List<Libro> librosall = Libro.findAll();
-        for (Libro lib: librosall){
-            renderXml(lib);
-        }
+        renderTemplate("Application/Tienda.html");
     }
+    //public void ListarLibros(){
+      //  List<Libro> librosall = Libro.findAll();
+        //for (Libro lib: librosall){
+         //   renderXml(lib);
+      //  }
+    //}
 
 
 }

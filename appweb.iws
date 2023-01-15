@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="ultima version" />
+    <list default="true" id="0d51cc0a-1c83-45f6-bd0b-63513a27ca75" name="Changes" comment="ultima version">
+      <change beforePath="$PROJECT_DIR$/app/controllers/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/CanviarPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/CanviarPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/ComprarLibro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/Llibres.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/Llibres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/Tienda.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/Tienda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appweb.iws" beforeDir="false" afterPath="$PROJECT_DIR$/appweb.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ant-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ant-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-astbuilder-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-commons-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-cli-picocli-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-console-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-console-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-contracts-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-datetime-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-dateutil-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-docgenerator-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-ginq-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovydoc-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-groovysh-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jmx-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-json-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-json-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-jsr223-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-macro-library-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-nio-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-nio-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-servlet-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-sql-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-sql-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-swing-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-swing-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-templates-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-templates-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-test-junit5-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-testng-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-testng-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-toml-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-toml-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-xml-4.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/groovy-xml-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_CanviarPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_CanviarPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_Llibres.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_Llibres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_Application_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Application" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Application.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,14 +109,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/PES/play-1.5.3/appweb",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PES/play-1.5.3/appweb&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

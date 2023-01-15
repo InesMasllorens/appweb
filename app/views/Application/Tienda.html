@@ -1,26 +1,77 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+</head>
 <body>
 
-    <h1> TIENDA DE LIBROS</h1>
+    #{if nope}
+    <h3>  No queda suficiente stock de este libro  ${nope} </h3>
+    #{/if}
+    <center>
+        <i> <h1 style="background-color:DodgerBlue;"> TIENDA DE LIBROS</h1> </i>
+        <div class="page-content">
+            <img src="https://m.media-amazon.com/images/I/816QLZKwmIL.jpg"
+                 vspace="20"
+                 align="left"
+                 width="300"
+                 height="341"
+                 display:inline-block>
+            <br>
+            <br>
+            <br>
+            <h2>Titulo: El senor de los anillos</h2>
+            <h3>Autor: J.R. Tolkien</h3>
+            <h4>Precio: 15 euros</h4>
 
-    #{form @listarLibros()  }
+        </div>
+      
+        #{form @comprar1btn() }
+  
 
-    <div class="page-content">
-        <h2> Titulo: El senor de los anillos</h2>
-        <h3> Autor: J.R. Tolkien</h3>
-        <img src="libro1.jpg">
-        <h4> Precio: 15 euros</h4>
-        <button>comprar</button>
-    </div>
+        <input type="submit" value="Compra" style='width:70px; height:25px'><br><br>
+        #{/form}
 
-    <div class="page-content">
-        <h2> Titulo: Harry Potter y la piedra filosofal</h2>
-        <h3> Autor: J.K. Rowlling</h3>
-        <img src="libro2.jpg">
-        <h4> Precio: 20 euros</h4>
-        <button>comprar</button>
-    </div>
+        #{form @sinopsis1() }
+
+        <input type="submit" value="Sinopsis" style='width:70px; height:25px'><br><br>
+        #{/form}
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="page-content">
+            <img src="https://m.media-amazon.com/images/I/91R1AixEiLL.jpg"
+                 width="300"
+                 align="right"
+                 vspace="20"
+                 height="341"
+                 display:inline-block>
+            <br>
+            <br>
+            <br>
+            <h2> Titulo: Harry Potter y la piedra filosofal</h2>
+            <h3> Autor: J.K. Rowlling</h3>
+            <h4> Precio: 20 euros</h4>
+
+
+            #{form @comprar2btn() }
+
+            <input type="submit" value="Comprar" style='width:70px; height:25px'><br><br>
+
+            #{/form}
+            #{form @sinopsis2() }
+
+            <input type="submit" value="Sinopsis" style='width:70px; height:25px'><br><br>
+            #{/form}
+
+        </div>
+    </center>
+
+
 
 </body>
 </html>
