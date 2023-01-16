@@ -87,6 +87,32 @@ public class Application extends Controller {
 
         }
     }
+    public void LoginAndroid(String e, String p) {
+        Cliente r = Cliente.find("byEmailAndPassword", e, p).first();
+        if (r != null) {
+
+            renderText("Benvingut!");
+
+        }
+        else {
+
+            renderText("Datos incorrectos");
+        }
+    }
+
+    public void RegisterAndroid(String e, String p, String n, String d) {
+        Cliente r = Cliente.find("byEmailAndDni", e, d).first();
+        if (r == null) {
+            Cliente u = new Cliente(e, p, n, d).save();
+            renderText("T'has registrat correctament");
+
+        }
+        else {
+
+            renderText("Error al registrarse");
+        }
+    }
+
     public static void TancaSessio(){
         session.clear();
         renderTemplate("Application/MainPage.html");

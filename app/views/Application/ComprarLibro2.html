@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+    #{if nop}
+    <h3>  ERROR  ${nop} </h3>
+    #{/if}
+
+
+    #{if nopep}
+    <h3>  ERROR   ${nopep} </h3>
+    #{/if}
+
+    <h4> Has elegido comprar el libro de <span>Harry Potter y la piedra filosofal</span>. Introduce tu email porfavor</h4>
+    <br>
+
+
+    #{form @comprarLibrobusqueda()  }
+
+
+    <br>
+    <label>Confirma el nombre del libro:</label>
+    <input type="text" name="n" size="1" /><br>
+    <br>
+
+    <label>Email:</label>
+    <input type="text" name="email" size="19" /><br>
+    <br>
+
+    <input type="submit" value="Send data" />
+
+    #{/form}
+
+    <br>
+    <br>
+
+
+
+</body>
+</html>
