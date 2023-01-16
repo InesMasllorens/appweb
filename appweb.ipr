@@ -417,6 +417,9 @@
       </environment>
     </general-settings>
   </component>
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/views/Application/Sinopsis2.html" charset="windows-1252" />
+  </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
