@@ -3,11 +3,11 @@
 <body>
     <meta charset="utf-8"/>
     #{if missatgeError}
-    <h3>  Error   ${missatgeError} </h3>
+    <h3 style="color:white;">  Error!!!   ${missatgeError} </h3>
     #{/if}
 
     #{if registrocompletado}
-    <h3>  Registro completado   ${registrocompletado} </h3>
+    <h3 style="color:white;">  Registro completado.   ${registrocompletado} </h3>
     #{/if}
     <br>
     <br>
@@ -18,23 +18,21 @@
     <br>
     <br>
     <center>
-        <h1 style="color:white;">LLIBRER&IacuteA ONLINE </h1>
+        <h1 style="color:white;">LIBRER&IacuteA ONLINE </h1>
 
 
         <div>
 
             #{form @loginbtn() }
 
-            <input type="submit" value="Login" style='width:70px; height:25px'><br><br>
+            <input type="submit" value="Login" style='width:85px; height:32px'><br><br>
 
             #{/form}
 
 
-
-
             #{form @registre() }
 
-            <button type="method" value="registre" style='width:70px; height:25px'>Registro</button>
+            <button type="method" value="registre" style='width:85px; height:32px'>Registro</button>
 
             #{/form}
         </div>

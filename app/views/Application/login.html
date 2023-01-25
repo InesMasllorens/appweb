@@ -3,14 +3,14 @@
 <body>
 
     #{if missatgeErr}
-    <h3>  Error   ${missatgeErr} </h3>
-    #{/if}  
+    <h3 style="color:white;">ERROR!! ${missatgeErr} </h3>
+    #{/if}
     <style>
 
 
         input[type=submit] {
             width: 100%;
-            background-color: orange;
+            background-color: red;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -20,12 +20,12 @@
         }
 
             input[type=submit]:hover {
-                background-color: #45a049;
+                background-color: #ff0000;
             }
 
         button {
             width: 100%;
-            background-color: orange;
+            background-color: red;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -35,7 +35,7 @@
         }
 
             button:hover {
-                background-color: orange;
+                background-color: red;
             }
 
         div {
@@ -49,38 +49,45 @@
             margin: auto;
         }
     </style>
-  
 
+
+    <br>
+    <br>
+    <br>
+    <center>
         <br>
         <br>
         <br>
-        <center>
+          <strong><h2 style="color:white;"> IDENTIF&IacuteCATE </h2></strong>
+        <br>
+        <div>
+            #{form @loginData()  }
+
+            <label>EMAIL:</label>
+            <input type="text" name="e" size="19" /><br>
+            <br>
+
+
+            <label>CONTRASE&NtildeA:</label>
+            <input type="password" name="p" size="19" />
             <br>
             <br>
-            <br>
-            <h2> Identificate </h2>
-            <br>
-            <div>
-                #{form @loginData()  }
+            <input type="submit" value="Send data" />
 
-                <label>EMAIL:</label>
-                <input type="text" name="e" size="19" /><br>
-                <br>
+            #{/form}
+        </div>
+    </center>
+    <br>
+    <br>
 
-
-                <label>CONTRASE&NTILDEA:</label>
-                <input type="password" name="p" size="19" />
-                <br>
-                <br>
-                <input type="submit" value="Send data" />
-
-                #{/form}
-                </div>
-        </center>
-        <br>
-        <br>
-
-
+    <style>
+        body {
+            background-image:url('https://elblogdelablo.files.wordpress.com/2017/11/lucy-y-el-armario.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 
 </body>
 </html>

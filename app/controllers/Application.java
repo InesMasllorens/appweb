@@ -18,6 +18,8 @@ public class Application extends Controller {
         Cliente u2 = new Cliente("lola@gmail.com", "lolalolita", "lola", "666666R").save();
         Libro p = new Libro("El señor de los anillos", "J.R. Tolkien", 15, 220).save();
         Libro p2 = new Libro("Harry Potter y la Piedra Filosofal", "J.K Rowling", 20, 250).save();
+        Libro p3 = new Libro("Las 999 mujeres de Auschwitz", "Heather Dune Macadam", 22, 250).save();
+        Libro p4 = new Libro("IT", "Stephen King", 19, 250).save();
         Compra c = new Compra(2, "07/20/2021").save();
         Compra c2 = new Compra(3, "07/20/2021").save();
         c.comprador = u;
@@ -158,13 +160,29 @@ public class Application extends Controller {
 
         renderTemplate("Application/ComprarLibro2.html");
     }
+    public static void comprar3btn(){
+
+        renderTemplate("Application/ComprarLibro3.html");
+    }
+    public static void comprar4btn(){
+
+        renderTemplate("Application/ComprarLibro4.html");
+    }
     public static void sinopsis1(){
 
         renderTemplate("Application/Sinopsis1.html");
     }
+    public static void sinopsis4(){
+
+        renderTemplate("Application/Sinopsis4.html");
+    }
     public static void sinopsis2(){
 
         renderTemplate("Application/Sinopsis2.html");
+    }
+    public static void sinopsis3(){
+
+        renderTemplate("Application/Sinopsis3.html");
     }
     public void ComprarLibrobusqueda(String n, String email) {
 
@@ -205,17 +223,25 @@ public class Application extends Controller {
             renderTemplate("Application/Llibres.html");
         }
     }
+    public static void anadirdinero(){
 
-    public void AñadirSaldo(String email,Double extrasaldo) {
+        renderTemplate("Application/AnadirSaldo.html");
+    }
+
+    public void AnadirSaldo(String email,Double extrasaldo) {
         Cliente c = Cliente.find("byEmail", email).first();
         if (c != null) {
             c.saldo=c.saldo +extrasaldo;
-            renderText("Saldo añadido correctamente,ahora tienes"+ c.saldo+"euros");
+            c.save();
+            renderArgs.put("yas","Saldo añadido correctamente");
+            renderTemplate("Application/Llibres.html");
         }
         else{
-            renderText("El email que has introduït no pertany a cap client");
+            renderArgs.put("nok","El email introducido no pertenece a ningún cliente");
+            renderTemplate("Application/AnadirSaldo.html");
         }
     }
+
     public void ElMasVendido(){
         //preguntarle a la profe si esto se harà con un botón, click o algo..
         List<Libro> libros=Libro.findAll();

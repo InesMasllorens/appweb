@@ -2,41 +2,47 @@
 <html>
 <body>
     #{if nocorrecto}
-    <h3>  Lo siento no ha sido posible   ${nocorrecto} </h3>
+    <h3 style="color:white;">  Lo siento, no ha sido posible   ${nocorrecto} </h3>
+    #{/if}
+    #{if yas}
+    <h3 style="color:white;">   ${yas} </h3>
     #{/if}
 
     #{if correcto}
-    <h3>  Cambio de contrasena realizado con exito  ${correcto} </h3>
+    <h3 style="color:white;">  Cambio de contrase&ntildea realizado con &eacutexito  ${correcto} </h3>
     #{/if}
 
     #{if nop}
-    <h3>  ERROR  ${nop} </h3>
+    <h3 style="color:white;">  ERROR  ${nop} </h3>
     #{/if}
 
 
     #{if nopep}
-    <h3>  ERROR   ${nopep} </h3>
+    <h3 style="color:white;">  ERROR   ${nopep} </h3>
     #{/if}
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <center>
-        <strong><h1 style="color:orange;">Bienvenidos a nuestra librería ${userConnected}!!!!!!! </h1></strong>
+        <strong><h1 style="background-color:white;">Bienvenidos a nuestra librería ${userConnected}!!!!!!! </h1></strong>
         #{if nope}
         <h3>  No queda suficiente stock de este libro  ${nope} </h3>
         #{/if}
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
 
+        #{form @anadirdinero() }
 
+        <input type="submit" value="Añadir saldo" /><br><br>
+
+        #{/form}
 
         #{form @TancaSessio() }
 
-        <input type="submit" value="Cerrar session" /><br><br>
+        <input type="submit" value="Cerrar sesi&#243;n" /><br><br>
 
         #{/form}
 
@@ -59,12 +65,12 @@
         #{/form}
     </center>
     <style>
-    body { background-image: url('https://media2.giphy.com/media/128MHrlrHNwwU0/200.gif'); 
-           background-repeat: no-repeat;
-           background-attachment: fixed;
-           background-size: cover;
-
-    }
+        body {
+            background-image: url('https://media2.giphy.com/media/128MHrlrHNwwU0/200.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
     </style>
 </body>
 </html>
